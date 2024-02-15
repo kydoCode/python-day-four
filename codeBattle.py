@@ -99,3 +99,27 @@ elif userMeal == Meal.SANDWICH.value:
     print(f"Okay, {Meal.SANDWICH.value}")
 else:
     print(f"Okay, {Meal.SALAD.value}")
+
+# EXERCICE 8:
+
+userDayInput = input("Jour de la semaine ? ")
+userDaySelect = userDayInput.lower()
+
+if userDaySelect == "Lundi".lower():
+    print("Breaking Bad")
+elif userDaySelect == "Mardi".lower():
+    print("Koh Lanta")
+elif userDaySelect == "Mercredi".lower():
+    print("Les experts")
+elif userDaySelect == "Jeudi".lower():
+    print("Taken")
+elif userDaySelect == "Vendredi".lower():
+    print("DALS")
+elif userDaySelect == "Samedi".lower():
+    print("The Voice")
+elif userDaySelect == "Dimanche".lower():
+    print("Le film du dimanche soir")
+else:
+    print("Erreur")
+
+
