@@ -48,15 +48,27 @@
 # EXERCICE 18
 # someFloat = 0.0
 
-def est_pair(number):
-    if number % 2 == 0:
-        print("Pair")
+# def est_pair(number):
+#    if number % 2 == 0:
+#        # print("Pair")
+#        return True
+#    else:
+#        # print("Impair")
+#        return False
+#
+# some_number = float(input("Nombre ? : "))
+#
+# checkUser = est_pair(some_number)
+# print(checkUser)
+
+# EXERCICE 19
+
+def est_mot_valide(somePanty):
+    if somePanty.isalpha() == True:
         return True
     else:
-        print("Impair")
         return False
 
-some_number = float(input("Nombre ? : "))
-
-checkUser = est_pair(some_number)
-print(checkUser)
+userWord = input("Saisir le mot: ")
+checkWordInput = est_mot_valide(userWord)
+print(checkWordInput)

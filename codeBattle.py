@@ -214,13 +214,27 @@ print(rectangle_one)
 
 def est_pair(number):
     if number % 2 == 0:
-        print("Pair")
+        # print("Pair")
         return True
     else:
-        print("Impair")
+        # print("Impair")
         return False
 
 some_number = float(input("Nombre ? : "))
 
 checkUser = est_pair(some_number)
 print(checkUser)
+
+# EXERCICE 19
+
+def est_mot_valide(somePanty):
+    if somePanty.isalpha() == True:
+        return True
+    else:
+        return False
+
+userWord = input("Saisir le mot: ")
+checkWordInput = est_mot_valide(userWord)
+print(checkWordInput)
+
+# EXERCICE 20
