@@ -8,3 +8,9 @@ print(introduceMyself)
 
 # EXERCICE 2
 
+userAge = int(input("Quel est votre âge ? "))
+
+if userAge >= 18:
+    print("Majeur")
+else:
+    print("Mineur")
