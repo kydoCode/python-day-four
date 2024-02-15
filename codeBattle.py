@@ -83,3 +83,19 @@ if userMood in Mood:
 else:
     print("Nouvelle saisie")
 
+# EXERCICE 7:
+    
+class Meal(Enum):
+    PIZZA = "pizza"
+    SANDWICH = "sandwich"
+    SALAD = "salade"
+
+userMealInput = input("Choix du plat: pizza / sandwich / salade ")
+userMeal = userMealInput.lower()
+
+if userMeal == Meal.PIZZA.value:
+    print(f"Okay, {Meal.PIZZA.value} !")
+elif userMeal == Meal.SANDWICH.value:
+    print(f"Okay, {Meal.SANDWICH.value}")
+else:
+    print(f"Okay, {Meal.SALAD.value}")
