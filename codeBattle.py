@@ -63,3 +63,23 @@ else:
     print("Choix de boisson non disponible")
 
 # EXERCICE 6:
+from enum import Enum
+
+class Mood(Enum):
+    HAPPY = "Heureux"
+    SAD = "Triste"
+    AWKWARD = "Comme çi comme ça"
+
+userMood = input("Quelle est votre humeur ? ")
+
+if userMood in Mood:
+    # print("Votre humeur est disponible ici")
+    if userMood == Mood.HAPPY.value:
+        print(f"{Mood.HAPPY.value}: c'est cool, faites du sport !")
+    elif userMood == Mood.SAD.value:
+        print(f"{Mood.SAD.value}: c'est pas cool, regardez Netflix !")
+    else:
+        print(f"{Mood.AWKWARD.value}: allez ça va le faire ! Un petit exo en Python ?")
+else:
+    print("Nouvelle saisie")
+
