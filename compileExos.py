@@ -34,13 +34,29 @@
 #    password_prompt = str(input("Mot de passe : "))
 
 # EXERCICE 17
+#
+# def aire_rectangle(longueur, largeur):
+#    aire = longueur*largeur
+#    return aire
+#
+# rectangle_longueur = int(input("Longueur : "))
+# rectangle_largeur = int(input("Largeur : "))
+#
+# rectangle_one = aire_rectangle(rectangle_longueur, rectangle_largeur)
+# print(rectangle_one)
 
-def aire_rectangle(longueur, largeur):
-    aire = longueur*largeur
-    return aire
+# EXERCICE 18
+# someFloat = 0.0
 
-rectangle_longueur = int(input("Longueur : "))
-rectangle_largeur = int(input("Largeur : "))
+def est_pair(number):
+    if number % 2 == 0:
+        print("Pair")
+        return True
+    else:
+        print("Impair")
+        return False
 
-rectangle_one = aire_rectangle(rectangle_longueur, rectangle_largeur)
-print(rectangle_one)
+some_number = float(input("Nombre ? : "))
+
+checkUser = est_pair(some_number)
+print(checkUser)

@@ -203,11 +203,24 @@ def aire_rectangle(longueur, largeur):
     aire = longueur*largeur
     return aire
 
-rectangle_longueur = int(input("Longueur : "))
-rectangle_largeur = int(input("Largeur :"))
+rectangle_longueur = float(input("Longueur : ")) # float = réels, pour éviter les erreurs
+rectangle_largeur = float(input("Largeur :"))
 
 rectangle_one = aire_rectangle(rectangle_longueur, rectangle_largeur)
 print(rectangle_one)
 
 # EXERCICE 18
+# someFloat = 0.0
 
+def est_pair(number):
+    if number % 2 == 0:
+        print("Pair")
+        return True
+    else:
+        print("Impair")
+        return False
+
+some_number = float(input("Nombre ? : "))
+
+checkUser = est_pair(some_number)
+print(checkUser)
