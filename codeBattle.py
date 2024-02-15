@@ -14,3 +14,19 @@ if userAge >= 18:
     print("Majeur")
 else:
     print("Mineur")
+
+# EXERCICE 3
+    
+todaysWeather = str(input("Quelle météo aujourd'hui ? "))
+
+if todaysWeather == "soleil":
+    print("En maillot")
+elif todaysWeather == "pluie":
+    print("Parapluie")
+elif todaysWeather == "neige":
+    print("Reste chez toi")
+elif todaysWeather == "brouillard":
+    print("Feux anti-brouillard")
+else:
+    print("ZzzZZzz")
+    
