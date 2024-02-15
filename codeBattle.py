@@ -251,3 +251,26 @@ oasis = ["mangue", "ananas", "framboise", "fraise"]
 # EXERCICE 22
 
 chineseDict = {"fanguan": "restaurant", "guojia": "hometown", "erzi": "fils"}
+
+# EXERCICE 23
+
+# chineseDict.append({"fanbianmian": "nouille instantanées"})
+chineseDict["fanbianmian"] = "nouille instantanées"
+print(chineseDict)
+
+oasis.append("kaki")
+print(oasis)
+
+# EXERCICE 24
+
+oasis.append("banane")
+print(oasis)
+del oasis[5]
+print(oasis)
+oasis.remove("kaki")
+print(oasis)
+
+# EXERCICE 25
+
+extractElement = oasis[2]
+print(extractElement)
