@@ -122,4 +122,28 @@ elif userDaySelect == "Dimanche".lower():
 else:
     print("Erreur")
 
+# EXERCICE 9:
 
+selectAnimal = input("Chat chien ou poisson ? ")
+print("Vous avez sélectionné ", selectAnimal)
+
+# EXERCICE 10:
+userInputSelectBook = input("Aventure, Romance, Science Fiction ? ")
+selectBook = userInputSelectBook.lower()
+# print("Je vous recommande des livres dans le thème de: ", selectBook)
+
+class BookType(Enum):
+    AVENTURE = "Aventure"
+    ROMANCE = "Romance"
+    SCFI = "Science Fiction"
+
+if selectBook == BookType.AVENTURE.value.lower():
+    print("Je vous recommande de lire Moby Dick")
+elif selectBook == BookType.ROMANCE.value.lower():
+    print("Je vous recommande de lire \"Et soudain tu es là\" de Cécile Violette")
+elif selectBook == BookType.SCFI.value.lower():
+    print("Je vous recommande de lire Hunger Games")
+else:
+    print("Découverte par sérendipité ON !")
+
+# EXERCICE 11:
