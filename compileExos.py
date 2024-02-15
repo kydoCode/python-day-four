@@ -74,10 +74,20 @@
 # print(checkWordInput)
 
 # EXERCICE 20
-def celsius_vers_fahrenheit(celsius):
-    fahrenheit = celsius * 9 / 5 + 32
-    return fahrenheit
+# def celsius_vers_fahrenheit(celsius):
+#    fahrenheit = celsius * 9 / 5 + 32
+#    return fahrenheit
+#
+# tempInCelsus = float(input("Température en Celsius : "))
+# computedTemp = celsius_vers_fahrenheit(tempInCelsus)
+# print(computedTemp)
 
-tempInCelsus = int(input("Température en Celsius : "))
-computedTemp = celsius_vers_fahrenheit(tempInCelsus)
-print(computedTemp)
+# EXERCICE 21
+
+oasis = ["mangue", "ananas", "framboise", "fraise"]
+
+# EXERCICE 22
+
+chineseDict = {"fanguan": "restaurant", "guojia": "hometown", "erzi": "fils"}
+
+# EXERCICE 23
