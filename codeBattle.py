@@ -186,3 +186,12 @@ firstValue = 1
 while firstValue <= user_number_choice:
     print(firstValue)
     firstValue += 2
+
+# EXERCICE 16
+
+user_password = "someWord"
+password_prompt = str(input("Mot de passe : "))
+
+while user_password != password_prompt:
+    print("Mot de passe incorrect.")
+    password_prompt = str(input("Mot de passe : "))

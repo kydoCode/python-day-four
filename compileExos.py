@@ -16,10 +16,19 @@
 
 
 # EXERCICE 15
+#
+# user_number_choice = int(input("Nombre de fin de séquence: "))
+# firstValue = 1
+#
+# while firstValue <= user_number_choice:
+#       print(firstValue)
+#       firstValue += 2
 
-user_number_choice = int(input("Nombre de fin de séquence: "))
-firstValue = 1
+# EXERCICE 16
 
-while firstValue <= user_number_choice:
-    print(firstValue)
-    firstValue += 2
+user_password = "someWord"
+password_prompt = str(input("Mot de passe : "))
+
+while user_password != password_prompt:
+    print("Mot de passe incorrect.")
+    password_prompt = str(input("Mot de passe : "))
