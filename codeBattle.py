@@ -53,3 +53,13 @@ else:
     print("Dimanche: encore dormir") 
 
 # EXERCICE 5: 
+
+offerProducts = ["thé", "café", "jus de fruits"]
+userChoice = input("Choix de boisson :") # f{.join(offerProducts)}
+
+if userChoice in offerProducts:
+    print(userChoice)
+else:
+    print("Choix de boisson non disponible")
+
+# EXERCICE 6:
