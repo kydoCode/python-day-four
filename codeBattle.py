@@ -238,3 +238,10 @@ checkWordInput = est_mot_valide(userWord)
 print(checkWordInput)
 
 # EXERCICE 20
+def celsius_vers_fahrenheit(celsius):
+    fahrenheit = celsius * 9 / 5 + 32
+    return fahrenheit
+
+tempInCelsus = int(input("Température en Celsius : "))
+computedTemp = celsius_vers_fahrenheit(tempInCelsus)
+print(computedTemp)

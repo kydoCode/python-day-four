@@ -62,13 +62,22 @@
 # print(checkUser)
 
 # EXERCICE 19
+#
+# def est_mot_valide(somePanty):
+#   if somePanty.isalpha() == True:
+#       return True
+#   else:
+#       return False
+#
+# userWord = input("Saisir le mot: ")
+# checkWordInput = est_mot_valide(userWord)
+# print(checkWordInput)
 
-def est_mot_valide(somePanty):
-    if somePanty.isalpha() == True:
-        return True
-    else:
-        return False
+# EXERCICE 20
+def celsius_vers_fahrenheit(celsius):
+    fahrenheit = celsius * 9 / 5 + 32
+    return fahrenheit
 
-userWord = input("Saisir le mot: ")
-checkWordInput = est_mot_valide(userWord)
-print(checkWordInput)
+tempInCelsus = int(input("Température en Celsius : "))
+computedTemp = celsius_vers_fahrenheit(tempInCelsus)
+print(computedTemp)
