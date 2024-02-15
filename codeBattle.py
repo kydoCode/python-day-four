@@ -147,3 +147,11 @@ else:
     print("Découverte par sérendipité ON !")
 
 # EXERCICE 11:
+
+allVowels = ["a", "e", "i", "o", "u", "y"]
+userWordInput = input("Mot à parser: ")
+
+for i in userWordInput:
+    if i in allVowels: # ajouter .lower() à i et on peut passer les voyelles direct après "in"
+        print(i)
+
