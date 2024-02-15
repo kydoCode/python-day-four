@@ -94,7 +94,7 @@ print(chineseDict)
 
 # EXERCICE 23
 
-chineseDict["fanbianmian"] = "nouille instantanées"
+chineseDict["fanbianmian"] = "nouilles instantanées"
 print(chineseDict)
 
 oasis.append("kaki")
@@ -113,3 +113,38 @@ print(oasis)
 
 extractElement = oasis[2]
 print(extractElement)
+
+# EXERCICE 26
+oasis.append("pomme")
+print(oasis)
+oasis[4] = "poire"
+print(oasis) 
+
+# EXERCICE 27
+
+for fruit in oasis:
+    print(fruit)
+
+# EXERCICE 28
+    
+if "fraise" in oasis:
+    print("Elle ramène sa fraise") 
+
+# EXERCICE 29
+
+# for item in chineseDict:
+#    print(item) 
+# for value in chineseDict.values():
+#    print(value)
+
+# for cle in chineseDict:
+#    keyPair = cle.items()
+#    print(keyPair)
+    
+for cle, value in chineseDict.items():
+    print(cle, value)
+
+# EXERCICE 30
+    
+chineseDict["zhongguo"] = "Chine"
+print(chineseDict)
