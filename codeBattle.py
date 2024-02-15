@@ -23,10 +23,33 @@ if todaysWeather == "soleil":
     print("En maillot")
 elif todaysWeather == "pluie":
     print("Parapluie")
+elif todaysWeather == "nuage":
+    print("Couvre toi")
 elif todaysWeather == "neige":
     print("Reste chez toi")
 elif todaysWeather == "brouillard":
     print("Feux anti-brouillard")
 else:
     print("ZzzZZzz")
-    
+
+# EXERCICE 4:
+
+whatsDayToday = str(input("Quel jour de la semaine ? "))
+whatsDayTodayParsed = whatsDayToday.lower()
+
+if whatsDayTodayParsed == "lundi":
+    print("PHP 01")
+elif whatsDayTodayParsed == "mardi":
+    print("PHP 02")
+elif whatsDayTodayParsed == "mercredi":
+    print("PHP 03")  
+elif whatsDayTodayParsed == "jeudi":
+    print("PYTHON 04")  
+elif whatsDayTodayParsed == "vendredi":
+    print("PYTHON 05")  
+elif whatsDayTodayParsed == "samedi":
+    print("Dormir")  
+else:
+    print("Dimanche: encore dormir") 
+
+# EXERCICE 5: 
