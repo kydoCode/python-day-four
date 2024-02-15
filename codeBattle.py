@@ -155,3 +155,11 @@ for i in userWordInput:
     if i in allVowels: # ajouter .lower() à i et on peut passer les voyelles direct après "in"
         print(i)
 
+# EXERCICE 12:
+        
+user_number = int(input("Jusqu'à quel chiffre passer à l'affichage ? "))
+i = 1
+
+while i <= user_number:
+    print(i)
+    i += 1
