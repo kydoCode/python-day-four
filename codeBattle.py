@@ -195,3 +195,19 @@ password_prompt = str(input("Mot de passe : "))
 while user_password != password_prompt:
     print("Mot de passe incorrect.")
     password_prompt = str(input("Mot de passe : "))
+print("Accès OK")
+
+# EXERCICE 17
+
+def aire_rectangle(longueur, largeur):
+    aire = longueur*largeur
+    return aire
+
+rectangle_longueur = int(input("Longueur : "))
+rectangle_largeur = int(input("Largeur :"))
+
+rectangle_one = aire_rectangle(rectangle_longueur, rectangle_largeur)
+print(rectangle_one)
+
+# EXERCICE 18
+

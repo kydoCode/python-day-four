@@ -25,10 +25,22 @@
 #       firstValue += 2
 
 # EXERCICE 16
+#
+# user_password = "someWord"
+# password_prompt = str(input("Mot de passe : "))
+#
+# while user_password != password_prompt:
+#    print("Mot de passe incorrect.")
+#    password_prompt = str(input("Mot de passe : "))
 
-user_password = "someWord"
-password_prompt = str(input("Mot de passe : "))
+# EXERCICE 17
 
-while user_password != password_prompt:
-    print("Mot de passe incorrect.")
-    password_prompt = str(input("Mot de passe : "))
+def aire_rectangle(longueur, largeur):
+    aire = longueur*largeur
+    return aire
+
+rectangle_longueur = int(input("Longueur : "))
+rectangle_largeur = int(input("Largeur : "))
+
+rectangle_one = aire_rectangle(rectangle_longueur, rectangle_largeur)
+print(rectangle_one)
