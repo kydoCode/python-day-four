@@ -66,11 +66,11 @@ else:
 from enum import Enum
 
 class Mood(Enum):
-    HAPPY = "Heureux"
-    SAD = "Triste"
-    AWKWARD = "Comme çi comme ça"
-
-userMood = input("Quelle est votre humeur ? ")
+    HAPPY = "Heureux".lower()
+    SAD = "Triste".lower()
+    AWKWARD = "Comme çi comme ça".lower()
+userMoodInput = input("Quelle est votre humeur ? ")
+userMood = userMoodInput.lower()
 
 if userMood in Mood:
     # print("Votre humeur est disponible ici")
@@ -163,3 +163,10 @@ i = 1
 while i <= user_number:
     print(i)
     i += 1
+
+# EXERCICE 13:
+
+user_to_upper = str(input("Texte à passer en majuscules: "))
+
+for letter in user_to_upper:
+    print(letter.upper())
