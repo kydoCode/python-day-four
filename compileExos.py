@@ -148,3 +148,70 @@ for cle, value in chineseDict.items():
     
 chineseDict["zhongguo"] = "Chine"
 print(chineseDict)
+
+# EXERCICE 31
+
+del chineseDict["zhongguo"]
+print(chineseDict)
+
+# EXERCICE 32
+
+print(len(oasis))
+print(oasis)
+
+# EXERCICE 33
+
+for key, value in chineseDict.items():
+    print(key) 
+print(chineseDict)
+
+# Méthode donnée par la solution : on prend seulement la première valeur (la clé) et on n'a pas besoin de la fonction items():
+for key in chineseDict:
+    print("La clé : ", key)
+
+# EXERCICE 34
+
+for key, value in chineseDict.items():
+    print("La valeur est : ", value)
+
+# La correction donne la méthode suivante:
+    
+for value in chineseDict.values():
+    print("Correction - value = ", value)
+
+# EXERCICE 35
+
+print('chien' in chineseDict)
+# On peut aussi faire avec if...in... 
+
+# EXERCICE 36
+print(oasis)
+oasisInOne = ' '.join(oasis)
+print(oasisInOne)
+
+# EXERCICE 37
+print(oasis)
+oasis.clear()
+print(oasis)
+
+# EXERCICE 38
+print(chineseDict)
+chineseDict.clear()
+# Marche mais je me suis compliqué la vie: dict.clear(chineseDict)
+print(chineseDict)
+
+# EXERCICE 39
+
+def ajouter_element_list(liste, element):
+    liste.append(element)
+    return liste
+    # return newList
+
+someValue = [1, 2, 3, 4, 5]
+# newValues = someValue().ajouter_element_list()
+
+newValue = ajouter_element_list(someValue, 6)
+print(f"Liste: {newValue}")
+
+# EXERCICE 40
+
